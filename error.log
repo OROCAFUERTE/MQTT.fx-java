@@ -1,0 +1,423 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Program%20Files%20(x86)/mqttfx/lib/log4j-slf4j-impl-2.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Program%20Files%20(x86)/mqttfx/lib/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+Aug 27, 2022 8:04:14 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+Aug 27, 2022 8:04:15 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+Aug 27, 2022 8:04:16 PM javafx.fxml.FXMLLoader$ValueElement processValue
+WARNING: Loading FXML document with JavaFX API of version 9 by JavaFX runtime of version 8.0.181
+2022-08-27 20:04:16,598  INFO --- Start App                      : Style: LIGHT /styles/mqttfx_theme_light.css
+2022-08-27 20:04:17,197  WARN --- Updater                        : Could not establish connection to URL ''http://www.jensd.de/apps/mqttfx/appcast.xml'': 403 http://www.jensd.de/apps/mqttfx/appcast.xml
+2022-08-27 20:04:17,200  INFO --- ScriptingManager               : Found action with name: Switch Fountain Test
+Aug 27, 2022 8:04:17 PM javafx.scene.CssStyleHelper calculateValue
+WARNING: Caught 'java.lang.ClassCastException: javafx.scene.paint.LinearGradient cannot be cast to javafx.scene.paint.Color' while converting value for '-fx-background-color' from rule '*.menu-bar' in stylesheet jar:file:/C:/Program%20Files%20(x86)/mqttfx/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/modena/modena.bss
+log4j:WARN No appenders could be found for logger (org.apache.commons.beanutils.converters.BooleanConverter).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+2022-08-27 20:16:11,634  INFO --- BrokerConnectorController      : onConnect
+2022-08-27 20:16:11,687  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-27 20:16:12,286  INFO --- MqttFX ClientModel             : session present: false
+2022-08-27 20:18:27,673  INFO --- SubscribeController            : onSubscribe
+2022-08-27 20:18:28,394  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-27 20:18:28,396  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-27 20:18:28,396  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@57d6ef73
+2022-08-27 20:18:28,396  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-27 20:18:28,396  INFO --- MqttFX ClientModel             : addPublishTopic : esp32/station-1/humedad
+2022-08-27 20:18:28,397  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic esp32/station-1/humedad (QoS 0)
+2022-08-27 20:18:53,936  INFO --- PublishController              : publish
+2022-08-27 20:18:53,939  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-27 20:18:53,940  INFO --- MqttFX ClientModel             : sucessfully published message Esto es el inicio de Hydryum.  to topic esp32/station-1/humedad (QoS 0, Retained: false)
+2022-08-27 20:18:54,104  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/station-1/humedad
+2022-08-27 20:18:54,111  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'esp32/station-1/humedad'
+2022-08-27 20:20:09,448  INFO --- PublishController              : publish
+2022-08-27 20:20:09,687  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-27 20:20:09,688  INFO --- MqttFX ClientModel             : sucessfully published message Esto es una prueba. to topic esp32/station-1/humedad (QoS 1, Retained: false)
+2022-08-27 20:20:09,688  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/station-1/humedad
+2022-08-27 20:20:09,689  INFO --- MqttFX ClientModel             : messageArrived() added: message #2 to topic 'esp32/station-1/humedad'
+2022-08-27 20:21:41,791  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-27 20:21:41,792  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 20:21:41,792  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 20:21:41,798  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-27 20:21:41,800  INFO --- ScriptsController              : Clear console.
+2022-08-27 20:21:41,802  INFO --- ScriptsController              : Clear console.
+2022-08-27 20:21:41,806  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 20:53:56,823  INFO --- BrokerConnectorController      : onConnect
+2022-08-27 20:53:56,825  INFO --- ScriptsController              : Clear console.
+2022-08-27 20:53:56,828  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-27 20:53:57,542  INFO --- MqttFX ClientModel             : session present: false
+2022-08-27 23:39:08,329  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-27 23:39:08,333  INFO --- ScriptsController              : Clear console.
+2022-08-27 23:39:08,333  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 23:39:08,334  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 23:39:08,344  INFO --- ScriptsController              : Clear console.
+2022-08-27 23:39:08,347  INFO --- ScriptsController              : Clear console.
+2022-08-27 23:39:08,353  INFO --- ScriptsController              : Cancel script excution.
+2022-08-27 23:39:18,502  INFO --- BrokerConnectorController      : onConnect
+2022-08-27 23:39:18,503  INFO --- ScriptsController              : Clear console.
+2022-08-27 23:39:18,507  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-27 23:39:19,256  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 00:01:44,731  INFO --- SubscribeController            : onSubscribe
+2022-08-28 00:01:44,896  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 00:01:44,897  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 00:01:44,897  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@3f0a9f82
+2022-08-28 00:01:44,898  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 00:01:44,898  INFO --- MqttFX ClientModel             : addPublishTopic : hydryum-i0t/ESP3298A4AE30F05D/command
+2022-08-28 00:01:44,901  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum-i0t/ESP3298A4AE30F05D/command (QoS 0)
+2022-08-28 00:19:18,419  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 00:19:18,419  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 00:19:18,421  INFO --- ScriptsController              : Clear console.
+2022-08-28 00:19:18,421  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 00:19:18,421  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 00:19:18,427  INFO --- ScriptsController              : Clear console.
+2022-08-28 00:19:18,428  INFO --- ScriptsController              : Clear console.
+2022-08-28 00:19:18,431  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 13:31:00,271  INFO --- mqttfx                         : closeApp()
+2022-08-28 14:50:34,632  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 14:50:34,636  INFO --- ScriptsController              : Clear console.
+2022-08-28 14:50:34,640  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT.fx assigned.
+2022-08-28 14:50:34,653  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 14:54:26,477  INFO --- PublishController              : publish
+2022-08-28 14:54:26,481  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:54:26,482  INFO --- MqttFX ClientModel             : addPublishTopic : esp32/humedad
+2022-08-28 14:54:26,482  INFO --- MqttFX ClientModel             : sucessfully published message Esto es una prueba. to topic esp32/humedad (QoS 1, Retained: false)
+2022-08-28 14:54:46,460  INFO --- SubscribeController            : onSubscribe
+2022-08-28 14:54:46,464  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 14:54:46,464  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 14:54:46,464  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@287ed3f5
+2022-08-28 14:54:46,465  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:54:46,469  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic esp32/humedad (QoS 0)
+2022-08-28 14:55:02,125  INFO --- PublishController              : publish
+2022-08-28 14:55:02,130  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:55:02,130  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 14:55:02,130  INFO --- MqttFX ClientModel             : sucessfully published message Esto es una prueba. to topic esp32/humedad (QoS 1, Retained: false)
+2022-08-28 14:55:02,131  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'esp32/humedad'
+2022-08-28 14:56:34,588  INFO --- PublishController              : publish
+2022-08-28 14:56:34,589  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:56:34,589  INFO --- MqttFX ClientModel             : sucessfully published message Esto es una prueba. to topic esp32/humedad (QoS 0, Retained: false)
+2022-08-28 14:56:34,590  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 14:56:34,594  INFO --- MqttFX ClientModel             : messageArrived() added: message #2 to topic 'esp32/humedad'
+2022-08-28 14:56:37,356  INFO --- PublishController              : publish
+2022-08-28 14:56:37,357  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:56:37,357  INFO --- MqttFX ClientModel             : sucessfully published message Esto es una prueba. to topic esp32/humedad (QoS 0, Retained: false)
+2022-08-28 14:56:37,358  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 14:56:37,359  INFO --- MqttFX ClientModel             : messageArrived() added: message #3 to topic 'esp32/humedad'
+2022-08-28 14:57:41,347  INFO --- PublishController              : publish
+2022-08-28 14:57:41,348  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 14:57:41,348  INFO --- MqttFX ClientModel             : sucessfully published message Hola Puki
+ to topic esp32/humedad (QoS 0, Retained: false)
+2022-08-28 14:57:41,348  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 14:57:41,349  INFO --- MqttFX ClientModel             : messageArrived() added: message #4 to topic 'esp32/humedad'
+2022-08-28 14:59:30,532  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 14:59:30,532  INFO --- MqttFX ClientModel             : messageArrived() added: message #5 to topic 'esp32/humedad'
+2022-08-28 15:02:57,049  INFO --- PublishController              : publish
+2022-08-28 15:02:57,050  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 15:02:57,050  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum lanzamiento en 3
+ to topic esp32/humedad (QoS 0, Retained: false)
+2022-08-28 15:02:57,051  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 15:02:57,052  INFO --- MqttFX ClientModel             : messageArrived() added: message #6 to topic 'esp32/humedad'
+2022-08-28 15:11:52,642  INFO --- MqttFX ClientModel             : Broker connection lost: Resetting client.
+2022-08-28 15:11:52,644  INFO --- ScriptsController              : Clear console.
+2022-08-28 15:11:52,645  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 15:11:52,648  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:00:15,029  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 16:00:15,030  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:00:15,033  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT.fx assigned.
+2022-08-28 16:00:15,039  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 16:00:30,989  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 16:00:30,990  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:00:30,990  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:00:30,990  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:00:30,999  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:00:31,000  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:00:31,002  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:01:01,004  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 16:01:01,005  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:01:01,008  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT.fx assigned.
+2022-08-28 16:01:01,017  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 16:01:10,357  INFO --- PublishController              : publish
+2022-08-28 16:01:10,358  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 16:01:10,358  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum lanzamiento en 3
+ to topic esp32/humedad (QoS 0, Retained: false)
+2022-08-28 16:01:53,571  INFO --- SubscribeController            : onSubscribe
+2022-08-28 16:01:53,574  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 16:01:53,575  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 16:01:53,575  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@287ed3f5
+2022-08-28 16:01:53,575  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 16:01:53,575  INFO --- MqttFX ClientModel             : messageArrived() with topic: esp32/humedad
+2022-08-28 16:01:53,576  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'esp32/humedad'
+2022-08-28 16:01:53,578  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic esp32/humedad (QoS 0)
+2022-08-28 16:14:01,567  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 16:14:01,567  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 16:14:01,569  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:14:01,569  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:14:01,569  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:14:01,574  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:14:01,574  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:14:01,576  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:15:41,003  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 16:15:41,004  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:15:41,007  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 16:15:41,968  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 16:17:27,580  INFO --- SubscribeController            : onSubscribe
+2022-08-28 16:17:27,883  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 16:17:27,884  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 16:17:27,884  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 16:17:27,884  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 16:17:27,884  INFO --- MqttFX ClientModel             : addPublishTopic : hydryum/humedad
+2022-08-28 16:17:27,886  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 16:17:52,221  INFO --- PublishController              : publish
+2022-08-28 16:17:52,222  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 16:17:52,222  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum/humedad (QoS 0, Retained: false)
+2022-08-28 16:17:52,530  INFO --- MqttFX ClientModel             : messageArrived() with topic: hydryum/humedad
+2022-08-28 16:17:52,530  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'hydryum/humedad'
+2022-08-28 16:19:32,459  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 16:19:32,459  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 16:19:32,461  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:19:32,461  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:19:32,461  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:19:32,482  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:19:32,484  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:19:32,488  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 16:19:37,803  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 16:19:37,804  INFO --- ScriptsController              : Clear console.
+2022-08-28 16:19:37,807  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 16:19:38,755  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 16:20:07,987  INFO --- SubscribeController            : onSubscribe
+2022-08-28 16:20:08,296  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 16:20:08,296  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 16:20:08,296  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 16:20:08,296  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 16:20:08,298  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 18:45:51,778  INFO --- MqttFX ClientModel             : Broker connection lost: Resetting client.
+2022-08-28 18:45:52,574  INFO --- ScriptsController              : Clear console.
+2022-08-28 18:45:52,574  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 18:45:52,575  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:12:22,250  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 19:12:22,251  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:12:22,256  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 19:12:23,205  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 19:12:26,521  INFO --- SubscribeController            : onSubscribe
+2022-08-28 19:12:26,791  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 19:12:26,792  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 19:12:26,792  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 19:12:26,792  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:12:26,794  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 19:12:30,921  INFO --- PublishController              : publish
+2022-08-28 19:12:30,922  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:12:30,923  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum/humedad (QoS 0, Retained: false)
+2022-08-28 19:12:31,189  INFO --- MqttFX ClientModel             : messageArrived() with topic: hydryum/humedad
+2022-08-28 19:12:31,190  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'hydryum/humedad'
+2022-08-28 19:12:36,257  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 19:12:36,258  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 19:12:36,259  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:12:36,259  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:12:36,259  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:12:36,265  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:12:36,266  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:12:36,268  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:21:31,158  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 19:21:31,159  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:21:31,162  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 19:21:32,028  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 19:22:30,669  INFO --- PublishController              : publish
+2022-08-28 19:22:30,670  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:22:30,670  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum/humedad (QoS 0, Retained: false)
+2022-08-28 19:22:33,581  INFO --- SubscribeController            : onSubscribe
+2022-08-28 19:22:33,841  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 19:22:33,841  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 19:22:33,841  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 19:22:33,841  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:22:33,843  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 19:22:35,909  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 19:22:35,909  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 19:22:35,910  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:22:35,911  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:22:35,911  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:22:35,919  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:22:35,920  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:22:35,921  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 19:22:48,461  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 19:22:48,462  INFO --- ScriptsController              : Clear console.
+2022-08-28 19:22:48,465  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 19:22:49,312  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 19:23:00,812  INFO --- SubscribeController            : onSubscribe
+2022-08-28 19:23:01,081  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 19:23:01,081  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 19:23:01,081  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 19:23:01,082  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:23:01,083  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 19:23:03,589  INFO --- PublishController              : publish
+2022-08-28 19:23:03,590  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 19:23:03,590  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum/humedad (QoS 0, Retained: false)
+2022-08-28 19:23:03,860  INFO --- MqttFX ClientModel             : messageArrived() with topic: hydryum/humedad
+2022-08-28 19:23:03,861  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'hydryum/humedad'
+2022-08-28 20:52:27,532  INFO --- MqttFX ClientModel             : Broker connection lost: Resetting client.
+2022-08-28 20:52:28,490  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:52:28,491  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 20:52:28,592  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:52:53,155  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 20:52:53,156  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:52:53,159  INFO --- MqttFX ClientModel             : MqttClient with ID MQTT_fx assigned.
+2022-08-28 20:52:54,126  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 20:53:01,146  INFO --- SubscribeController            : onSubscribe
+2022-08-28 20:53:01,425  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 20:53:01,426  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 20:53:01,426  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@1a378b17
+2022-08-28 20:53:01,426  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 20:53:01,428  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum/humedad (QoS 0)
+2022-08-28 20:53:10,473  INFO --- PublishController              : publish
+2022-08-28 20:53:10,474  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 20:53:10,474  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum/humedad (QoS 0, Retained: false)
+2022-08-28 20:53:10,759  INFO --- MqttFX ClientModel             : messageArrived() with topic: hydryum/humedad
+2022-08-28 20:53:10,760  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'hydryum/humedad'
+2022-08-28 20:54:18,953  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 20:54:18,953  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 20:54:18,954  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:54:18,955  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:54:18,955  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:54:18,974  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:54:18,974  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:54:18,977  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:54:46,617  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 20:54:46,618  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:54:46,620  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 20:54:47,212  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 20:55:50,904  INFO --- SubscribeController            : onSubscribe
+2022-08-28 20:55:51,066  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 20:55:51,066  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-28 20:55:51,066  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@3f0a9f82
+2022-08-28 20:55:51,066  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 20:55:51,068  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic hydryum-i0t/ESP3298A4AE30F05D/command (QoS 0)
+2022-08-28 20:56:14,672  INFO --- PublishController              : publish
+2022-08-28 20:56:14,673  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-28 20:56:14,673  INFO --- MqttFX ClientModel             : sucessfully published message Hydryum humedad: 40%
+ to topic hydryum-i0t/ESP3298A4AE30F05D/command (QoS 0, Retained: false)
+2022-08-28 20:56:14,836  INFO --- MqttFX ClientModel             : messageArrived() with topic: hydryum-i0t/ESP3298A4AE30F05D/command
+2022-08-28 20:56:14,837  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'hydryum-i0t/ESP3298A4AE30F05D/command'
+2022-08-28 20:56:34,575  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 20:56:34,576  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-28 20:56:34,577  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:56:34,577  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:56:34,577  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:56:34,585  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:56:34,586  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:56:34,588  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:57:50,175  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 20:57:50,176  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:57:50,178  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 20:57:50,684  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 20:57:51,327  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 20:57:51,328  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:57:51,328  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:57:51,328  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 20:57:51,335  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:57:51,336  INFO --- ScriptsController              : Clear console.
+2022-08-28 20:57:51,338  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:36,105  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:36,106  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:36,109  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:36,680  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:44,193  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:44,194  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:44,194  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:44,194  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:44,202  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:44,203  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:44,205  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:45,898  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:45,899  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:45,901  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:46,223  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:47,961  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:47,962  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:47,962  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:47,962  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:47,981  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:47,982  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:47,984  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:49,145  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:49,146  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:49,148  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:49,470  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:49,865  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:49,866  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:49,866  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:49,866  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:49,885  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:49,886  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:49,888  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:50,353  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:50,354  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:50,357  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:50,679  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:51,673  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:51,674  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:51,674  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:51,674  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:51,690  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:51,691  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:51,693  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:52,153  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:52,154  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:52,156  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:52,479  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:52,690  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:52,691  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:52,691  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:52,691  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:52,698  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:52,699  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:52,700  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:53,345  INFO --- BrokerConnectorController      : onConnect
+2022-08-28 21:09:53,345  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:53,348  INFO --- MqttFX ClientModel             : MqttClient with ID fx_esp32 assigned.
+2022-08-28 21:09:53,670  INFO --- MqttFX ClientModel             : session present: false
+2022-08-28 21:09:54,137  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-28 21:09:54,138  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:54,138  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:54,138  INFO --- ScriptsController              : Cancel script excution.
+2022-08-28 21:09:54,154  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:54,155  INFO --- ScriptsController              : Clear console.
+2022-08-28 21:09:54,157  INFO --- ScriptsController              : Cancel script excution.
+2022-08-29 14:07:18,195  INFO --- BrokerConnectorController      : onConnect
+2022-08-29 14:07:18,203  INFO --- ScriptsController              : Clear console.
+2022-08-29 14:07:18,208  INFO --- MqttFX ClientModel             : MqttClient with ID FX assigned.
+2022-08-29 14:07:18,763  INFO --- MqttFX ClientModel             : session present: false
+2022-08-29 14:07:27,954  INFO --- SubscribeController            : onSubscribe
+2022-08-29 14:07:28,115  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-29 14:07:28,115  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-29 14:07:28,115  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@2830ab5c
+2022-08-29 14:07:28,115  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-29 14:07:28,120  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic home/garden/fountain (QoS 0)
+2022-08-29 14:07:42,613  INFO --- PublishController              : publish
+2022-08-29 14:07:42,614  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-29 14:07:42,614  INFO --- MqttFX ClientModel             : sucessfully published message humedad: 40%
+ to topic home/garden/fountain (QoS 0, Retained: false)
+2022-08-29 14:07:42,773  INFO --- MqttFX ClientModel             : messageArrived() with topic: home/garden/fountain
+2022-08-29 14:07:42,774  INFO --- MqttFX ClientModel             : messageArrived() added: message #1 to topic 'home/garden/fountain'
+2022-08-29 14:07:51,074  INFO --- BrokerConnectorController      : onDisconnect
+2022-08-29 14:07:51,075  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-29 14:07:51,077  INFO --- ScriptsController              : Clear console.
+2022-08-29 14:07:51,077  INFO --- ScriptsController              : Cancel script excution.
+2022-08-29 14:07:51,077  INFO --- ScriptsController              : Cancel script excution.
+2022-08-29 14:07:51,107  INFO --- ScriptsController              : Clear console.
+2022-08-29 14:07:51,107  INFO --- ScriptsController              : Clear console.
+2022-08-29 14:07:51,110  INFO --- ScriptsController              : Cancel script excution.
+2022-08-29 14:12:16,286  INFO --- BrokerConnectorController      : onConnect
+2022-08-29 14:12:16,288  INFO --- ScriptsController              : Clear console.
+2022-08-29 14:12:16,290  INFO --- MqttFX ClientModel             : MqttClient with ID FX assigned.
+2022-08-29 14:12:16,793  INFO --- MqttFX ClientModel             : session present: false
+2022-08-29 14:12:17,420  INFO --- SubscribeController            : onSubscribe
+2022-08-29 14:12:17,577  INFO --- MqttFX ClientModel             : rebuildMessagesList()
+2022-08-29 14:12:17,577  INFO --- MqttFX ClientModel             : attempt to addRecentSubscriptionTopic
+2022-08-29 14:12:17,577  INFO --- MqttFX ClientModel             : addRecentSubscriptionTopic : de.jensd.mqttfx.entities.Topic@2830ab5c
+2022-08-29 14:12:17,577  INFO --- MqttFX ClientModel             : attempt to add PublishTopic
+2022-08-29 14:12:17,580  INFO --- MqttFX ClientModel             : sucessfully subscribed to topic home/garden/fountain (QoS 0)
